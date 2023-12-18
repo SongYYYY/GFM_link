@@ -57,7 +57,7 @@ def train(model, score_func, train_pos, x, optimizer, batch_size):
         pos_out = score_func(h[edge[0]], h[edge[1]])
         pos_loss = -torch.log(pos_out + 1e-15).mean()
         if isinstance(score_func, AsymmetricScoringFunction):
-            pos_out = score_func(h[edge[1], edge[0]])
+            pos_out = score_func(h[edge[1]], h[edge[0]])
             pos_loss += -torch.log(pos_out + 1e-15).mean()
             pos_loss = pos_loss / 2
 
@@ -238,6 +238,8 @@ def train_and_eval(param_grid):
     input_channel = x.size(1)
 
     model, score_func = get_model(gnn_model, score_model, input_channel, hidden_dim, gnn_layers, score_layers, dropout, head)
+    model = model.to(device)
+    score_func = score_func.to(device)
 
     mrr_list = []
     epoch_list = []
@@ -312,13 +314,13 @@ def train_and_record(pId, param_grid):
 if __name__ == '__main__':
     param_grid = {
     # data
-    'data_name': 'pubmed',
-    'train_ratio': 0.8,
+    'data_name': 'cora',
+    'train_ratio': 0.3,
     'val_ratio': 0.1,
     'data_seed': 0,
     'emb_type': 'sbert',
     # model 
-    'gnn_model': 'GAT',
+    'gnn_model': 'MLP',
     'score_model': 'Sym',
     'gnn_layers': 1,
     'score_layers': 3,
