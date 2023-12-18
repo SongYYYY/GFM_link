@@ -1,0 +1,41 @@
+-------pubmed-------
+GCN tfidf 24.76 + 7.56
+GCN sbert 22.76 + 5.50
+MLP sbert 17.90 + 2.63
+
+---------5-lyaer MLP--------
+MLP-pre 17.15 ± 5.58
+
+
+----------cora---------
+GCN sbert 27.45 ± 2.21
+GCN ifidf 29.72 ± 2.60
+MLP sbert 23.65 ± 1.74
+MLP tfidf 26.42 ± 6.27
+
+--------5-layer MLP-------
+MLP-pre 32.48 ± 8.38
+MLP-tfs 14.16 ± 2.66
+
+
+-----------EVAL-------------
+cora
+5-layer-MLP
+MLP-pre 64.91 00.00
+MLP-tfs ~55
+
+
+GCN sbert 0.6668
+GCN tfidf 0.6525
+MLP sbert 0.5918
+MLP tfidf 0.5733
+
+pubmed
+5-layer-MLP
+MLP-pre 70.41
+MLP-tfs ~73.50
+
+GCN sbert 0.7456
+MLP sbert 0.7098
+GCN tfidf 0.7048
+MLP tfidf 0.6705
