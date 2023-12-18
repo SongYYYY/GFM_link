@@ -407,7 +407,7 @@ def train_and_record(pId, param_grid):
 if __name__ == '__main__':
     param_grid = {
     # data
-    'data_name': 'pubmed',
+    'data_name': 'cora',
     'train_ratio': 0.8,
     'val_ratio': 0.1,
     'data_seed': 0,
@@ -427,7 +427,7 @@ if __name__ == '__main__':
     'l2': 0,
     'epochs': 1000,
     'patience': 20,
-    'runs': 3,
+    'runs': 1,
     'eval_steps': 5,
     # gat
     'head': 1,
