@@ -228,7 +228,7 @@ def get_model(gnn_model, score_model, input_channel, hidden_channels, gnn_layers
 def load_weights(model, score_func, ckpt_path):
     state_dict = torch.load(ckpt_path)
     print(state_dict.keys())
-    link_model = LinkPredModel(384, 384, 1, 0)
+    link_model = LinkPredModel(384, 384, 2, 0)
     link_model.load_state_dict(state_dict, strict=True)
     model = link_model.extractor
     print('GNN init.')
@@ -407,7 +407,7 @@ def train_and_record(pId, param_grid):
 if __name__ == '__main__':
     param_grid = {
     # data
-    'data_name': 'cora',
+    'data_name': 'pubmed',
     'train_ratio': 0.8,
     'val_ratio': 0.1,
     'data_seed': 0,
@@ -420,8 +420,8 @@ if __name__ == '__main__':
     'hidden_dim': 384,
     'dropout': 0.1,
     # train
-    'finetune': True,
-    'ckpt_name': 'ckpt_20',
+    'finetune': False,
+    'ckpt_name': 'ckpt_5-5',
     'batch_size': 4096,
     'lr': 1e-3,
     'l2': 0,

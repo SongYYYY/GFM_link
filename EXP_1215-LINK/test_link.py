@@ -318,7 +318,7 @@ if __name__ == '__main__':
     'train_ratio': 0.8,
     'val_ratio': 0.1,
     'data_seed': 0,
-    'emb_type': 'tfidf',
+    'emb_type': 'sbert',
     # model 
     'gnn_model': 'SAGE',
     'score_model': 'Asym',
