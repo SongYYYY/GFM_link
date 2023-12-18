@@ -267,7 +267,7 @@ def train_and_eval(param_grid):
         device = torch.device("cpu")
     print(device)
 
-    init_fitlog(param_grid, 'logs_transfer')
+    init_fitlog(param_grid, 'logs_gnn')
     print('Fitlog init.')
 
     seed = param_grid['seed']
@@ -414,7 +414,7 @@ if __name__ == '__main__':
     'emb_type': 'sbert',
     # model 
     'gnn_model': 'SAGE',
-    'score_model': 'Sym',
+    'score_model': 'Asym',
     'gnn_layers': 1,
     'score_layers': 3,
     'hidden_dim': 384,

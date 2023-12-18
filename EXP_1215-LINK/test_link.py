@@ -314,21 +314,21 @@ def train_and_record(pId, param_grid):
 if __name__ == '__main__':
     param_grid = {
     # data
-    'data_name': 'cora',
-    'train_ratio': 0.3,
+    'data_name': 'pubmed',
+    'train_ratio': 0.8,
     'val_ratio': 0.1,
     'data_seed': 0,
     'emb_type': 'sbert',
     # model 
     'gnn_model': 'MLP',
-    'score_model': 'Sym',
-    'gnn_layers': 1,
+    'score_model': 'Asym',
+    'gnn_layers': 3,
     'score_layers': 3,
     'hidden_dim': 256,
     'dropout': 0.1,
     # train
     'batch_size': 4096,
-    'lr': 0.01,
+    'lr': 0.001,
     'l2': 0,
     'epochs': 1000,
     'patience': 20,
