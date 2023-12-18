@@ -244,7 +244,7 @@ def train_and_eval(param_grid):
         device = torch.device("cpu")
     print(device)
 
-    init_fitlog(param_grid, 'logs_transfer')
+    init_fitlog(param_grid, 'logs_gnn')
     print('Fitlog init.')
 
     seed = param_grid['seed']
@@ -383,23 +383,23 @@ def train_and_record(pId, param_grid):
 if __name__ == '__main__':
     param_grid = {
     # data
-    'data_name': 'arxiv23',
+    'data_name': 'cora',
     'train_ratio': 0.8,
     'val_ratio': 0.1,
     'data_seed': 0,
     'emb_type': 'sbert',
     # model 
     'gnn_model': 'MLP',
-    'score_model': 'Sym',
+    'score_model': 'Asym',
     'gnn_layers': 5,
     'score_layers': 3,
     'hidden_dim': 384,
     'dropout': 0.5,
     # train
-    'finetune': False,
+    'finetune': True,
     'ckpt_name': 'ckpt_clf',
     'batch_size': 4096,
-    'lr': 5e-4,
+    'lr': 1e-3,
     'l2': 0,
     'epochs': 1000,
     'patience': 20,
