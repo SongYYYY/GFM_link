@@ -383,7 +383,7 @@ def train_and_record(pId, param_grid):
 if __name__ == '__main__':
     param_grid = {
     # data
-    'data_name': 'cora',
+    'data_name': 'pubmed',
     'train_ratio': 0.8,
     'val_ratio': 0.1,
     'data_seed': 0,
@@ -396,7 +396,7 @@ if __name__ == '__main__':
     'hidden_dim': 384,
     'dropout': 0.5,
     # train
-    'finetune': True,
+    'finetune': False,
     'ckpt_name': 'ckpt_clf',
     'batch_size': 4096,
     'lr': 1e-3,
