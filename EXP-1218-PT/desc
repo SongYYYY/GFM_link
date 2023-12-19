@@ -1,0 +1,7 @@
+pretrain on Papers100M using three kinds of prediction headers.
+1) 2*d, directional header
+2) d, product undirected header
+3) contrastive projector with dot-product
+
+For all the archetecture, we use bi-directional edges.
+

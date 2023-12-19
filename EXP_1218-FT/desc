@@ -1,0 +1,10 @@
+Finetune the pretrained ckpts from EXP_1218-PT.
+Test three kinds of headers & two kinds of transfer setting.
+
+1) TFS - same as the ckpt
+2) TFS - best hyperparameters
+3) FT - backbone only
+4) FT - whole 
+
+
+
