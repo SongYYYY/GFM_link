@@ -222,11 +222,11 @@ def train_and_eval(param_grid):
 
     set_random_seed(seed)
 
-    downstream_root = '../LLM_data'
+    downstream_root = '../../LLM_data'
     data_ori = torch.load(os.path.join(downstream_root, f'{data_name}_fixed_{emb_type}.pt'))
 
     data = generate_link_prediction_data_(data_ori, data_name, train_ratio=train_ratio, valid_ratio=val_ratio, K=K, seed=data_seed,
-                                          save=True, save_dir='../link_data')
+                                          save=True, save_dir='../../link_data')
     data['x'] = data_ori.x
    
     node_num = data['x'].size(0)
