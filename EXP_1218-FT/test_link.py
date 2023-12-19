@@ -187,7 +187,8 @@ def train_and_eval(param_grid):
         device = torch.device("cpu")
     print(device)
 
-    init_fitlog(param_grid)
+    log_dir = param_grid['log_dir']
+    init_fitlog(param_grid, log_dir)
     print('Fitlog init.')
 
     seed = param_grid['seed']

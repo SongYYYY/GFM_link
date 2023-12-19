@@ -21,10 +21,10 @@ dataset_params_list = [
 ] 
 
 
-model_params_list = [{'gnn_model': ['MLP'], 'score_model': ['Asym', 'Sym'],
+model_params_list = [{'gnn_model': ['SAGE'], 'score_model': ['Asym', 'Sym'],
                       'gnn_layers': [1, 2, 3], 'score_layers': [1, 2, 3], 'hidden_dim': [128, 256], 'dropout': [0.1, 0.5]}]
 
-other_params_list = [{'seed': [123], 'gpu': [0], 'log_dir': ['logs_mlp']}]
+other_params_list = [{'seed': [123], 'gpu': [2], 'log_dir': ['logs_sage']}]
 
 param_grid_list = []
 for dataset_params in dataset_params_list:
