@@ -24,7 +24,7 @@ dataset_params_list = [
 model_params_list = [{'gnn_model': ['GAT'], 'score_model': ['Asym', 'Sym'],
                       'gnn_layers': [1, 2, 3], 'score_layers': [1, 2, 3], 'hidden_dim': [128, 256], 'dropout': [0.1, 0.5]}]
 
-other_params_list = [{'seed': [123], 'gpu': [3], 'log_dir': ['logs_gat']}]
+other_params_list = [{'seed': [123], 'gpu': [3], 'log_dir': ['logs']}]
 
 param_grid_list = []
 for dataset_params in dataset_params_list:
