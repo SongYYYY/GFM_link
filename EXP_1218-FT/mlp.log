@@ -1,0 +1,474 @@
+2304 param grids in total.
+2304 param grids in total.
+  0%|          | 0/2304 [00:00<?, ?it/s]{'K': 100, 'batch_size': 4096, 'data_name': 'cora', 'data_seed': 0, 'dropout': 0.1, 'emb_type': 'sbert', 'epochs': 1000, 'eval_steps': 10, 'gnn_layers': 1, 'gnn_model': 'MLP', 'gpu': 4, 'head': 1, 'hidden_dim': 128, 'l2': 0, 'log_dir': 'logs_mlp', 'lr': 0.001, 'patience': 20, 'runs': 3, 'score_layers': 1, 'score_model': 'Asym', 'seed': 123, 'train_ratio': 0.8, 'val_ratio': 0.1}
+2304 param grids in total.
+CUDA is available
+CUDA version: 11.7
+cuda:4
+[34mAuto commit by fitlog[0m
+Fitlog init.
+Successfully loaded file.
+#################################           0           #################################
+train seed:  0
+layers in mlp:  1
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 858.78it/s]
+Valid MRR: 0.0716
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1836.39it/s]
+Valid MRR: 0.0904
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1700.16it/s]
+Valid MRR: 0.0999
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1889.33it/s]
+Valid MRR: 0.1098
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1911.72it/s]
+Valid MRR: 0.1113
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1544.86it/s]
+Valid MRR: 0.1147
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1939.11it/s]
+Valid MRR: 0.1171
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1542.59it/s]
+Valid MRR: 0.1245
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1554.60it/s]
+Valid MRR: 0.1259
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1591.77it/s]
+Valid MRR: 0.1218
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1559.80it/s]
+Valid MRR: 0.1221
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1890.18it/s]
+Valid MRR: 0.1257
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1651.95it/s]
+Valid MRR: 0.1275
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1572.08it/s]
+Valid MRR: 0.1265
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1603.94it/s]
+Valid MRR: 0.1266
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1872.46it/s]
+Valid MRR: 0.1276
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1582.76it/s]
+Valid MRR: 0.1241
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1850.97it/s]
+Valid MRR: 0.1185
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1699.47it/s]
+Valid MRR: 0.1170
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1718.98it/s]
+Valid MRR: 0.1204
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1567.38it/s]
+Valid MRR: 0.1288
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1611.95it/s]
+Valid MRR: 0.1261
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1576.81it/s]
+Valid MRR: 0.1262
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1923.99it/s]
+Valid MRR: 0.1295
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1860.83it/s]
+Valid MRR: 0.1269
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1596.61it/s]
+Valid MRR: 0.1290
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1864.96it/s]
+Valid MRR: 0.1255
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1948.12it/s]
+Valid MRR: 0.1301
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1878.33it/s]
+Valid MRR: 0.1305
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1955.39it/s]
+Valid MRR: 0.1316
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1737.49it/s]
+Valid MRR: 0.1310
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1944.51it/s]
+Valid MRR: 0.1272
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1607.01it/s]
+Valid MRR: 0.1310
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1826.79it/s]
+Valid MRR: 0.1250
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1836.39it/s]
+Valid MRR: 0.1284
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1537.50it/s]
+Valid MRR: 0.1259
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1583.95it/s]
+Valid MRR: 0.1314
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1864.96it/s]
+Valid MRR: 0.1274
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1866.62it/s]
+Valid MRR: 0.1230
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1945.41it/s]
+Valid MRR: 0.1262
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1790.91it/s]
+Valid MRR: 0.1291
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1766.77it/s]
+Valid MRR: 0.1335
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1936.43it/s]
+Valid MRR: 0.1245
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1968.23it/s]
+Valid MRR: 0.1297
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1542.02it/s]
+Valid MRR: 0.1300
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1937.32it/s]
+Valid MRR: 0.1274
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1951.75it/s]
+Valid MRR: 0.1303
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1603.94it/s]
+Valid MRR: 0.1312
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1854.25it/s]
+Valid MRR: 0.1255
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1797.82it/s]
+Valid MRR: 0.1275
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1562.12it/s]
+Valid MRR: 0.1287
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1864.96it/s]
+Valid MRR: 0.1276
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1743.27it/s]
+Valid MRR: 0.1338
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1878.33it/s]
+Valid MRR: 0.1279
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1980.31it/s]
+Valid MRR: 0.1224
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1959.96it/s]
+Valid MRR: 0.1261
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1588.15it/s]
+Valid MRR: 0.1299
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1959.04it/s]
+Valid MRR: 0.1281
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1856.71it/s]
+Valid MRR: 0.1258
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1973.79it/s]
+Valid MRR: 0.1252
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1702.92it/s]
+Valid MRR: 0.1297
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1874.97it/s]
+Valid MRR: 0.1273
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1774.24it/s]
+Valid MRR: 0.1258
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1966.39it/s]
+Valid MRR: 0.1258
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1614.44it/s]
+Valid MRR: 0.1283
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1589.96it/s]
+Valid MRR: 0.1320
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1811.01it/s]
+Valid MRR: 0.1328
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1949.03it/s]
+Valid MRR: 0.1247
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1756.41it/s]
+Valid MRR: 0.1268
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1966.39it/s]
+Valid MRR: 0.1261
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1611.33it/s]
+Valid MRR: 0.1300
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1931.97it/s]
+Valid MRR: 0.1324
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1854.25it/s]
+Valid MRR: 0.1290
+RUN: 0, Training Stop! Best MRR: 0.1338 at Epoch 530
+Ckpt loaded.
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1572.08it/s]
+RUN: 0, TEST MRR: 0.1254
+#################################           1           #################################
+train seed:  1
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1847.71it/s]
+Valid MRR: 0.0910
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1940.91it/s]
+Valid MRR: 0.1026
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1538.07it/s]
+Valid MRR: 0.1048
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1972.86it/s]
+Valid MRR: 0.1061
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1765.28it/s]
+Valid MRR: 0.1172
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1804.78it/s]
+Valid MRR: 0.1184
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1950.84it/s]
+Valid MRR: 0.1207
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1789.38it/s]
+Valid MRR: 0.1271
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1840.41it/s]
+Valid MRR: 0.1154
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1807.11it/s]
+Valid MRR: 0.1232
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1966.39it/s]
+Valid MRR: 0.1211
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1578.59it/s]
+Valid MRR: 0.1191
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1821.23it/s]
+Valid MRR: 0.1191
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1945.41it/s]
+Valid MRR: 0.1211
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1593.58it/s]
+Valid MRR: 0.1183
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1941.81it/s]
+Valid MRR: 0.1263
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1967.31it/s]
+Valid MRR: 0.1161
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1795.51it/s]
+Valid MRR: 0.1225
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1709.17it/s]
+Valid MRR: 0.1230
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1598.44it/s]
+Valid MRR: 0.1238
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1622.55it/s]
+Valid MRR: 0.1265
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1759.36it/s]
+Valid MRR: 0.1228
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1723.92it/s]
+Valid MRR: 0.1249
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1967.31it/s]
+Valid MRR: 0.1245
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1849.34it/s]
+Valid MRR: 0.1274
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1623.81it/s]
+Valid MRR: 0.1302
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1891.03it/s]
+Valid MRR: 0.1268
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1785.57it/s]
+Valid MRR: 0.1216
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1576.81it/s]
+Valid MRR: 0.1278
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1608.25it/s]
+Valid MRR: 0.1282
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1957.21it/s]
+Valid MRR: 0.1269
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1955.39it/s]
+Valid MRR: 0.1293
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1600.27it/s]
+Valid MRR: 0.1260
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1855.07it/s]
+Valid MRR: 0.1286
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1871.62it/s]
+Valid MRR: 0.1280
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1941.81it/s]
+Valid MRR: 0.1277
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1872.46it/s]
+Valid MRR: 0.1282
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1954.48it/s]
+Valid MRR: 0.1282
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1580.97it/s]
+Valid MRR: 0.1273
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1691.25it/s]
+Valid MRR: 0.1251
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1833.98it/s]
+Valid MRR: 0.1264
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1822.82it/s]
+Valid MRR: 0.1271
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1832.37it/s]
+Valid MRR: 0.1269
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1963.63it/s]
+Valid MRR: 0.1345
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1962.71it/s]
+Valid MRR: 0.1278
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1700.85it/s]
+Valid MRR: 0.1291
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1873.29it/s]
+Valid MRR: 0.1294
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1964.55it/s]
+Valid MRR: 0.1304
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1801.68it/s]
+Valid MRR: 0.1321
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1886.78it/s]
+Valid MRR: 0.1268
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1940.01it/s]
+Valid MRR: 0.1288
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1717.57it/s]
+Valid MRR: 0.1284
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1878.33it/s]
+Valid MRR: 0.1249
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1783.29it/s]
+Valid MRR: 0.1295
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1882.54it/s]
+Valid MRR: 0.1305
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1974.72it/s]
+Valid MRR: 0.1260
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1613.19it/s]
+Valid MRR: 0.1289
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1959.96it/s]
+Valid MRR: 0.1257
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1825.20it/s]
+Valid MRR: 0.1312
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1572.08it/s]
+Valid MRR: 0.1358
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1576.81it/s]
+Valid MRR: 0.1320
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1848.53it/s]
+Valid MRR: 0.1319
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1770.50it/s]
+Valid MRR: 0.1327
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1549.43it/s]
+Valid MRR: 0.1328
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1632.66it/s]
+Valid MRR: 0.1348
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1839.61it/s]
+Valid MRR: 0.1319
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1669.04it/s]
+Valid MRR: 0.1284
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1636.48it/s]
+Valid MRR: 0.1306
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1621.93it/s]
+Valid MRR: 0.1311
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1538.07it/s]
+Valid MRR: 0.1302
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1540.32it/s]
+Valid MRR: 0.1321
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1531.33it/s]
+Valid MRR: 0.1297
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1600.88it/s]
+Valid MRR: 0.1320
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1493.70it/s]
+Valid MRR: 0.1280
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1582.76it/s]
+Valid MRR: 0.1264
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1618.17it/s]
+Valid MRR: 0.1307
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1771.99it/s]
+Valid MRR: 0.1309
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1661.77it/s]
+Valid MRR: 0.1268
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1653.25it/s]
+Valid MRR: 0.1267
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1821.23it/s]
+Valid MRR: 0.1235
+RUN: 1, Training Stop! Best MRR: 0.1358 at Epoch 600
+Ckpt loaded.
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1909.11it/s]
+RUN: 1, TEST MRR: 0.1336
+#################################           2           #################################
+train seed:  2
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1603.94it/s]
+Valid MRR: 0.0987
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1567.38it/s]
+Valid MRR: 0.0891
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1693.30it/s]
+Valid MRR: 0.1044
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1700.16it/s]
+Valid MRR: 0.1112
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1579.18it/s]
+Valid MRR: 0.1206
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1590.56it/s]
+Valid MRR: 0.1203
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1728.18it/s]
+Valid MRR: 0.1260
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1843.65it/s]
+Valid MRR: 0.1209
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1644.83it/s]
+Valid MRR: 0.1282
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1577.40it/s]
+Valid MRR: 0.1228
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1534.69it/s]
+Valid MRR: 0.1203
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1615.06it/s]
+Valid MRR: 0.1313
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1662.43it/s]
+Valid MRR: 0.1233
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1679.06it/s]
+Valid MRR: 0.1275
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1556.33it/s]
+Valid MRR: 0.1278
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1530.21it/s]
+Valid MRR: 0.1218
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1646.12it/s]
+Valid MRR: 0.1293
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1615.06it/s]
+Valid MRR: 0.1298
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1529.65it/s]
+Valid MRR: 0.1288
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1605.17it/s]
+Valid MRR: 0.1297
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1633.93it/s]
+Valid MRR: 0.1246
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1336.19it/s]
+Valid MRR: 0.1244
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1596.01it/s]
+Valid MRR: 0.1221
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1781.78it/s]
+Valid MRR: 0.1241
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1796.28it/s]
+Valid MRR: 0.1268
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1752.01it/s]
+Valid MRR: 0.1292
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1602.71it/s]
+Valid MRR: 0.1298
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1521.33it/s]
+Valid MRR: 0.1274
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1796.28it/s]
+Valid MRR: 0.1295
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1658.48it/s]
+Valid MRR: 0.1260
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1658.48it/s]
+Valid MRR: 0.1296
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1524.65it/s]
+Valid MRR: 0.1234
+RUN: 2, Training Stop! Best MRR: 0.1313 at Epoch 120
+Ckpt loaded.
+Evaluate:   0%|          | 0/1 [00:00<?, ?it/s]Evaluate: 100%|██████████| 1/1 [00:00<00:00, 1702.92it/s]
+RUN: 2, TEST MRR: 0.1236
+TEST MRR LIST: [tensor(0.1254), tensor(0.1336), tensor(0.1236)]
+MEAN TEST MRR: 0.1275, STD: 0.0044, Epoch: 416.6666666666667
+  0%|          | 1/2304 [00:34<21:46:27, 34.04s/it]{'K': 100, 'batch_size': 4096, 'data_name': 'cora', 'data_seed': 0, 'dropout': 0.1, 'emb_type': 'sbert', 'epochs': 1000, 'eval_steps': 10, 'gnn_layers': 1, 'gnn_model': 'MLP', 'gpu': 4, 'head': 1, 'hidden_dim': 128, 'l2': 0, 'log_dir': 'logs_mlp', 'lr': 0.001, 'patience': 20, 'runs': 3, 'score_layers': 1, 'score_model': 'Asym', 'seed': 123, 'train_ratio': 0.3, 'val_ratio': 0.1}
+2304 param grids in total.
+CUDA is available
+CUDA version: 11.7
+cuda:4
+error occured in {'K': 100, 'batch_size': 4096, 'data_name': 'cora', 'data_seed': 0, 'dropout': 0.1, 'emb_type': 'sbert', 'epochs': 1000, 'eval_steps': 10, 'gnn_layers': 1, 'gnn_model': 'MLP', 'gpu': 4, 'head': 1, 'hidden_dim': 128, 'l2': 0, 'log_dir': 'logs_mlp', 'lr': 0.001, 'patience': 20, 'runs': 3, 'score_layers': 1, 'score_model': 'Asym', 'seed': 123, 'train_ratio': 0.3, 'val_ratio': 0.1}.
+[Errno 2] No such file or directory: '/home/ec2-user/quic-efs/user/tangjili/projects/GFM_link/EXP_1218-FT/.fitlog'
+  0%|          | 1/2304 [00:46<29:51:40, 46.68s/it]
+Traceback (most recent call last):
+  File "/home/ec2-user/quic-efs/user/tangjili/projects/GFM_link/EXP_1218-FT/search.py", line 66, in <module>
+    spawn(train_and_record, args=(param_grid,))
+  File "/home/ec2-user/quic-efs/user/tangjili/miniconda3/envs/DGL/lib/python3.11/site-packages/torch/multiprocessing/spawn.py", line 239, in spawn
+    return start_processes(fn, args, nprocs, join, daemon, start_method='spawn')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/quic-efs/user/tangjili/miniconda3/envs/DGL/lib/python3.11/site-packages/torch/multiprocessing/spawn.py", line 197, in start_processes
+    while not context.join():
+              ^^^^^^^^^^^^^^
+  File "/home/ec2-user/quic-efs/user/tangjili/miniconda3/envs/DGL/lib/python3.11/site-packages/torch/multiprocessing/spawn.py", line 160, in join
+    raise ProcessRaisedException(msg, error_index, failed_process.pid)
+torch.multiprocessing.spawn.ProcessRaisedException: 
+
+-- Process 0 terminated with the following error:
+Traceback (most recent call last):
+  File "/home/ec2-user/quic-efs/user/tangjili/miniconda3/envs/DGL/lib/python3.11/shutil.py", line 825, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ec2-user/quic-efs/user/tangjili/projects/GFM_link/EXP_1218-FT/.fitlog' -> '/home/ec2-user/quic-efs/user/tangjili/projects/GFM_link/EXP_1218-FT/.git'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/quic-efs/user/tangjili/projects/GFM_link/EXP_1218-FT/test_link.py", line 300, in train_and_record
+    train_and_eval(param_grid)
+  File "/home/ec2-user/quic-efs/user/tangjili/projects/GFM_link/EXP_1218-FT/test_link.py", line 191, in train_and_eval
+    init_fitlog(param_grid, log_dir)
+  File "/home/ec2-user/quic-efs/user/tangjili/projects/GFM_link/EXP_1218-FT/test_link.py", line 175, in init_fitlog
+    fitlog.commit(__file__)
+  File "/home/ec2-user/quic-efs/user/tangjili/miniconda3/envs/DGL/lib/python3.11/site-packages/fitlog/__init__.py", line 123, in commit
+    _logger.commit(file, fit_msg)
+  File "/home/ec2-user/quic-efs/user/tangjili/miniconda3/envs/DGL/lib/python3.11/site-packages/fitlog/fastlog/logger.py", line 58, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/quic-efs/user/tangjili/miniconda3/envs/DGL/lib/python3.11/site-packages/fitlog/fastlog/logger.py", line 175, in commit
+    msg = committer.commit(file=file, commit_message=fit_msg)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/quic-efs/user/tangjili/miniconda3/envs/DGL/lib/python3.11/site-packages/fitlog/fastgit/committer.py", line 414, in commit
+    self._switch_to_fast_git(self.work_dir)
+  File "/home/ec2-user/quic-efs/user/tangjili/miniconda3/envs/DGL/lib/python3.11/site-packages/fitlog/fastgit/committer.py", line 159, in _switch_to_fast_git
+    shutil.move(fitlog_path, git_path)
+  File "/home/ec2-user/quic-efs/user/tangjili/miniconda3/envs/DGL/lib/python3.11/shutil.py", line 845, in move
+    copy_function(src, real_dst)
+  File "/home/ec2-user/quic-efs/user/tangjili/miniconda3/envs/DGL/lib/python3.11/shutil.py", line 436, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/ec2-user/quic-efs/user/tangjili/miniconda3/envs/DGL/lib/python3.11/shutil.py", line 256, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ec2-user/quic-efs/user/tangjili/projects/GFM_link/EXP_1218-FT/.fitlog'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/quic-efs/user/tangjili/miniconda3/envs/DGL/lib/python3.11/site-packages/torch/multiprocessing/spawn.py", line 69, in _wrap
+    fn(i, *args)
+  File "/home/ec2-user/quic-efs/user/tangjili/projects/GFM_link/EXP_1218-FT/test_link.py", line 304, in train_and_record
+    fitlog.finish()
+  File "/home/ec2-user/quic-efs/user/tangjili/miniconda3/envs/DGL/lib/python3.11/site-packages/fitlog/__init__.py", line 192, in finish
+    _logger.finish(status, send_to_bot)
+  File "/home/ec2-user/quic-efs/user/tangjili/miniconda3/envs/DGL/lib/python3.11/site-packages/fitlog/fastlog/logger.py", line 58, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/quic-efs/user/tangjili/miniconda3/envs/DGL/lib/python3.11/site-packages/fitlog/fastlog/logger.py", line 81, in wrapper
+    raise RuntimeError("You have to call `fitlog.set_log_dir()` to set where to save log first.")
+RuntimeError: You have to call `fitlog.set_log_dir()` to set where to save log first.
+

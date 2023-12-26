@@ -11,11 +11,8 @@ basic_params = {'batch_size': [4096], 'lr': [1e-3, 1e-2], 'l2': [0, 1e-5], 'epoc
                 'eval_steps': [10], 'head': [1], 'K': [100]}
 
 
-dataset_params_list = [ 
-                        {'data_name': ['cora'], 'train_ratio': [0.8, 0.3], 'val_ratio': [0.1], 'emb_type': ['sbert', 'tfidf'], 
-                             'data_seed': [0],
-                        },              
-                        {'dataname': ['pubmed'], 'train_ratio': [0.8, 0.3], 'val_ratio': [0.1], 'emb_type': ['sbert', 'tfidf'], 
+dataset_params_list = [          
+                        {'data_name': ['pubmed'], 'train_ratio': [0.8, 0.3], 'val_ratio': [0.1], 'emb_type': ['sbert', 'tfidf'], 
                              'data_seed': [0],
                         },                 
 ] 
